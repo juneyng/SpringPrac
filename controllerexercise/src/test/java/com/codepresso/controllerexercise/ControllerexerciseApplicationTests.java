@@ -1,10 +1,10 @@
-package com.codepresso.helloworld;
+package com.codepresso.controllerexercise;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HelloworldApplicationTests {
+class ControllerexerciseApplicationTests {
 
 	@Test
 	void contextLoads() {

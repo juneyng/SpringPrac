@@ -9,14 +9,18 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.codepresso</groupId>
-	<artifactId>helloworld</artifactId>
+	<artifactId>controllerexercise</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>helloworld</name>
+	<name>controllerexercise</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
